@@ -15,3 +15,9 @@ end
 
 
 # need to convert agruments to strings, as well as declare a 4th variablle to hold the result of the addition. Finally, wrapping x in quotes, and adding an exclamation mark.
+
+#  more condensed version
+
+def triple_add(a, b, c)
+   "#{a.to_s + b.to_s + c.to_s}!"
+end

@@ -55,9 +55,10 @@ def next_foo(one_str, two_str)
    one_str.upcase + two_str.upcase
 end
 
-puts next_foo "cat".reverse, "another cat"
+puts next_foo("cat".reverse, "another cat")
 
 #no return need, as we can let the method choose how it wants to put or return the data.
 #  "puts" statement still neccessary outside the method. 
+# lastly, use parenthases for easily readable code
 
 
